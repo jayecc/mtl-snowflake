@@ -16,7 +16,7 @@ const (
 )
 
 var (
-	DefaultEpoch int64 = time.Date(2015, 6, 10, 0, 0, 0, 0, time.UTC).UnixNano()
+	DefaultEpoch int64 = time.Date(2020, 6, 10, 0, 0, 0, 0, time.UTC).UnixNano()
 )
 
 type Settings struct {
